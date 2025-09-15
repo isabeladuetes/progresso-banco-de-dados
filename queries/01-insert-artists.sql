@@ -10,6 +10,6 @@ CREATE TABLE artistas (
     ativo BOOLEAN DEFAULT TRUE
 );
 
-INSERT INTO artistas (nome, tipo, membros, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativo);
+INSERT INTO artistas (nome, tipo, membros, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativo),
 VALUES
-('One Direction','Banda', 5, 'Pop', 'Reino Unido', 2010, 'You & I', FALSE);
+('One Direction','Banda', 5, 'Pop', 'Reino Unido', 2010, 'You & I', FALSE),
